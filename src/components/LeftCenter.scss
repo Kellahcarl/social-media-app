@@ -1,0 +1,77 @@
+.left-center{
+    // background-color: yellow;
+    width: 250px;
+    height: 60vh;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: white;
+    padding: 15px;
+
+    .top-left-center{
+        background-color: rgb(247, 246, 246);
+        border-radius: 7px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .icon-p{
+        display: flex;
+        gap: 20px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .experience{
+        // background-color: green;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        border-bottom: 1px solid rgb(220, 219, 219);
+
+        h4, p{
+            margin-bottom: 20px;
+        }
+
+    }
+
+    .photos{
+        margin-top: 50px;
+        gap: 10px;
+        background-color: rgb(247, 246, 246);
+        border-radius: 7px;
+    }
+
+    .see-all{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .progress {
+        width: 100%;
+        height: 30px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .progress-bar {
+        width: 80%;
+        height: 100%;
+        background-color: #5e4caf;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 30px;
+        color: white;
+    }
+
+    .pics{
+        display: flex;
+        gap: 10px;
+    }
+
+
+}
